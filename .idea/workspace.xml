@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3dec898e-d7ec-41e2-a68b-4975e7e1a3ec" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/multiprocess/multiprocess_not_share_var_global.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multiprocess/multithread_share_var_global.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multiprocess/multiprocess_queue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multiprocess/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/multiprocess/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -64,8 +63,8 @@
         <entry file="file://$PROJECT_DIR$/multiprocess/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="51">
-                <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              <first_editor relative-caret-position="102">
+                <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -77,8 +76,8 @@
       <file leaf-file-name="multithread_share_var_global.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/multiprocess/multithread_share_var_global.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-67">
-              <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+            <state relative-caret-position="375">
+              <caret line="40" column="10" lean-forward="true" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
               <folding>
                 <element signature="e#268#284#0" expanded="true" />
               </folding>
@@ -86,13 +85,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="multiprocess_not_share_var_global.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="multiprocess_not_share_var_global.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/multiprocess/multiprocess_not_share_var_global.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
               <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
               <folding>
                 <element signature="e#25#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="multiprocess_queue.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/multiprocess/multiprocess_queue.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="35" column="226" selection-start-line="35" selection-start-column="226" selection-end-line="35" selection-end-column="226" />
+              <folding>
+                <element signature="e#24#46#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -129,9 +140,10 @@
         <option value="$PROJECT_DIR$/multiprocess/multiprocess.py" />
         <option value="$PROJECT_DIR$/multiprocess/multithread.py" />
         <option value="$PROJECT_DIR$/multiprocess/multithread_order.py" />
-        <option value="$PROJECT_DIR$/multiprocess/README.md" />
         <option value="$PROJECT_DIR$/multiprocess/multithread_share_var_global.py" />
         <option value="$PROJECT_DIR$/multiprocess/multiprocess_not_share_var_global.py" />
+        <option value="$PROJECT_DIR$/multiprocess/README.md" />
+        <option value="$PROJECT_DIR$/multiprocess/multiprocess_queue.py" />
       </list>
     </option>
   </component>
@@ -184,7 +196,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.multiprocess_not_share_var_global">
+  <component name="RunManager" selected="Python.multiprocess_queue">
     <configuration name="multiprocess" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="distributed-locking" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -221,7 +233,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="multithread" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="multiprocess_queue" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="distributed-locking" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -233,7 +245,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/multiprocess/multithread.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/multiprocess/multiprocess_queue.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -276,19 +288,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.multithread" />
       <item itemvalue="Python.multithread_order" />
       <item itemvalue="Python.multiprocess" />
       <item itemvalue="Python.multithread_share_var_global" />
       <item itemvalue="Python.multiprocess_not_share_var_global" />
+      <item itemvalue="Python.multiprocess_queue" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.multiprocess_queue" />
         <item itemvalue="Python.multiprocess_not_share_var_global" />
         <item itemvalue="Python.multithread_share_var_global" />
         <item itemvalue="Python.multiprocess" />
         <item itemvalue="Python.multithread_order" />
-        <item itemvalue="Python.multithread" />
       </list>
     </recent_temporary>
   </component>
@@ -299,10 +311,10 @@
     <frame x="67" y="35" width="998" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11088296" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2412731" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35044643" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35044643" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -388,11 +400,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/multiprocess/multiprocess_not_share_var_global.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+          <folding>
+            <element signature="e#25#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/multiprocess/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="51">
-            <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <first_editor relative-caret-position="102">
+            <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
@@ -402,20 +424,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/multiprocess/multithread_share_var_global.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-67">
-          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        <state relative-caret-position="375">
+          <caret line="40" column="10" lean-forward="true" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
           <folding>
             <element signature="e#268#284#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/multiprocess/multiprocess_not_share_var_global.py">
+    <entry file="file://$PROJECT_DIR$/multiprocess/multiprocess_queue.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+        <state relative-caret-position="236">
+          <caret line="35" column="226" selection-start-line="35" selection-start-column="226" selection-end-line="35" selection-end-column="226" />
           <folding>
-            <element signature="e#25#47#0" expanded="true" />
+            <element signature="e#24#46#0" expanded="true" />
           </folding>
         </state>
       </provider>
